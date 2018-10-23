@@ -1,0 +1,11 @@
+framework module TPLLBA {
+  umbrella header "TPLLBA.h"
+
+  export *
+  module * { export * }
+}
+
+module TPLLBA.Swift {
+    header "TPLLBA-Swift.h"
+    requires objc
+}
